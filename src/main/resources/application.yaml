@@ -1,0 +1,9 @@
+
+discord:
+  token: ${DISCORD_TOKEN}
+
+bot:
+  auto-join-channels:
+    - serverId: ${SERVER_ID}
+      channelId: ${CHANNEL_ID}
+      announcement: I just joined!!
